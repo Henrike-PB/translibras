@@ -29,7 +29,7 @@ header {
     margin-right: 300px;
 }
 
-dark-mode header {
+.dark-mode header {
    
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
