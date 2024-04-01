@@ -7,6 +7,14 @@ body {
     background-size: cover;
 }
 
+.dark-mode body {
+    font-family: 'ubuntu', sans-serif;
+    background-color: #7400F5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%235e10bf' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2349148c' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2334145b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231f102f' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23000000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}   
+
 
 
 
@@ -20,6 +28,17 @@ header {
     margin-left: 340px;
     margin-right: 300px;
 }
+
+dark-mode header {
+   
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: purple;
+    text-align: center;
+    padding: 1px 1;
+    margin-left: 340px;
+    margin-right: 300px;
 
 nav ul {
     list-style: none;
@@ -55,10 +74,24 @@ ul {
 
 }
 
-.contact-section {
+.dark-mode .contact-section {
     text-align: center;
     padding: 20px 0;
-    background-color: #460661;
+    background-color: grey;
+    color: #FFFF00;
+}
+
+  .dark-mode  .features-section {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.dark-mode .contact-section {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
     color: #FFFF00;
 }
 
